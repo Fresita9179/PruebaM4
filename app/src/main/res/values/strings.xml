@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppNavegaBoton</string>
+    <string name="escribe_una_contra">Escribe una contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="validar_contra">VALIDAR CONTRASEÑA</string>
+    <string name="contraseña_debe">
+        La contraseña debe tener al menos 5 caracteres y una letra mayúscula
+    </string>
+    <string name="contenido_fragment">
+        Recuerda que para que la contraseña sea segura debe cumplir con estas características:
+      \n\n
+>Al menos 5 caracteres
+        \n\n
+>Al menos 1 letra mayúscula
+\n\n\n
+Otras características que hacen la contraseña más segura
+\n\n
+>Al menos 1 carácter especial (como. , % $)
+        \n\n
+>Al menos 1 número
+    </string>
+</resources>

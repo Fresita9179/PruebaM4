@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores de la paleta de agua -->
+    <color name="colorPrimary">#00BFFF</color> <!-- Deep Sky Blue -->
+    <color name="colorPrimaryDark">#1E90FF</color> <!-- Dodger Blue -->
+    <color name="colorAccent">#87CEEB</color> <!-- Sky Blue -->
+    <color name="colorBackground">#E0FFFF</color> <!-- Light Cyan -->
+    <color name="colorSurface">#F0F8FF</color> <!-- Alice Blue -->
+    <color name="colorText">#4682B4</color> <!-- Steel Blue -->
+    <color name="colorButton_enabled">#FF6200EE</color> <!-- Color para habilitado -->
+    <color name="colorButton_disabled">#ADD8E6</color> <!-- Color para deshabilitado -->
+    <color name="colorTextInputHint">#5F9EA0</color> <!-- Cadet Blue -->
+</resources>

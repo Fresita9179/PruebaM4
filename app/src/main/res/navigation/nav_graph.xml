@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmento_inicial">
+
+    <fragment
+        android:id="@+id/fragmento_inicial"
+        android:name="com.desafiolatam.backroundservice.appnavegaboton.FragmentoInicial"
+        android:label="fragmento_inicial"
+        tools:layout="@layout/fragmento_inicial" >
+        <action
+            android:id="@+id/action_inicialFragment_to_resultadoFragment"
+            app:destination="@id/fragmento_resultado" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_resultado"
+        android:name="com.desafiolatam.backroundservice.appnavegaboton.FragmentoResultado"
+        android:label="fragmento_resultado"
+        tools:layout="@layout/fragmento_resultado" />
+</navigation>
