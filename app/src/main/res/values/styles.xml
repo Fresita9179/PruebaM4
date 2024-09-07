@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Tema global de la aplicación con paleta de agua -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <!-- Tema específico para FragmentoInicial -->
+    <style name="FragmentoInicialTheme" parent="AppTheme">
+        <item name="android:background">@color/colorSurface</item>
+        <!-- Puedes agregar más personalizaciones aquí -->
+    </style>
+
+    <!-- Tema específico para FragmentoResultado -->
+    <style name="FragmentoResultadoTheme" parent="AppTheme">
+        <item name="android:background">@color/colorSurface</item>
+        <!-- Puedes agregar más personalizaciones aquí -->
+    </style>
+</resources>
